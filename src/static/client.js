@@ -1,6 +1,5 @@
 window.addEventListener("load", onLoaded);
 
-
 async function onLoaded() {
   const clientSession = await fetch('/client-session', {
     method: 'post',
